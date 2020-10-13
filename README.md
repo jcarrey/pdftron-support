@@ -19,4 +19,4 @@ $> dotnet test
 $> cd Source
 $> docker build .
 
-This build succeeds
+This build failes due to cert count being 0, should be 1 at least, right ?
